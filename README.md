@@ -2,6 +2,8 @@
 
 Demo how to parse `JSON` to a generic list `List<T>` with `T` is the model class you defined (use `json_annotation` library).
 
+# Run example: `bin/main.dart`
+
 ```dart
 void main(List<String> arguments) {
   Factories.shared.registerFromJson<User>((json) => User.fromJson(json as dynamic));
