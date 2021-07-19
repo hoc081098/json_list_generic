@@ -1,0 +1,15 @@
+name: json_list_generic
+description: Demo how to parse `JSON` to a generic list `List<T>` with `T` is the model class you defined (use `json_annotation` library).
+publish_to: none
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  json_serializable: ^5.0.0
+
+dev_dependencies:
+  analyzer: ^2.0.0
+  pedantic: ^1.11.1
+  test: ^1.17.10
+  build_runner: ^2.0.6
