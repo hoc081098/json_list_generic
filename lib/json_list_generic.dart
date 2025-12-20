@@ -1,3 +1,4 @@
+// @dart=3.8
 import 'package:json_annotation/json_annotation.dart';
 
 part 'json_list_generic.g.dart';

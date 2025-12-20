@@ -1,3 +1,4 @@
+// @dart=3.8
 import 'dart:convert';
 
 import 'package:json_annotation/json_annotation.dart';
